@@ -9,8 +9,8 @@ namespace TrendNET.WMS
         public App()
         {
             InitializeComponent();
-
-            MainPage = new MainPage();
+            // Here we define a GreetPage on click method :)
+            MainPage = new GreetPage();
         }
 
         protected override void OnStart()
