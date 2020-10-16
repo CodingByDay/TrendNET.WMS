@@ -10,7 +10,8 @@ namespace TrendNET.WMS
         {
             InitializeComponent();
             // Here we define a GreetPage on click method :)
-            MainPage = new GreetPage();
+            // So the main page here will be a Register method () ;)
+            MainPage = new Register(); // Commmmmeeeeeeennnnttttttt
         }
 
         protected override void OnStart()

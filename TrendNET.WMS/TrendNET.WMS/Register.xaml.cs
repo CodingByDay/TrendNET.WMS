@@ -10,16 +10,18 @@ using Xamarin.Forms.Xaml;
 namespace TrendNET.WMS
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
-    public partial class GreetPage : ContentPage
+    public partial class Register : ContentPage
     {
-        public GreetPage()
+        public Register()
         {
             InitializeComponent();
         }
-        // Access modifier set to private method xaml <Button-->DisplayOptions<----------15.10.2020
-        private void Button_Clicked(object sender, EventArgs e)
+
+        private void btnRegistration(object sender, EventArgs e)
         {
-            DisplayAlert("Title", "C# aplikacija", "Odjava");
+            DisplayAlert("Prijava", "Uspesna prijava", "Odjava");        
         }
+
+        
     }
 }
